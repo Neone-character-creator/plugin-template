@@ -6,7 +6,19 @@
   "fieldsPath": "path/to/your/character/sheet/mapping/override.json",
   "views": {
     "name": "app",
-    "children": []
+    "children": [
+      {
+        "name": "Summary",
+        "type": "view",
+        "children": [
+          {
+            "type": "label",
+            "name": "Label",
+            "text": "Hello World"
+          }
+        ]
+      }
+    ]
   },
   "model": {
     "character": {
